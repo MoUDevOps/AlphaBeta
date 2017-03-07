@@ -1,7 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <assets PGFVersion="0.25" GSCVersion="1.25.6227">
   <sounds />
-  <images />
+  <images>
+    <image name="a">
+      <file name="a.png" size="9563" />
+    </image>
+    <image name="b">
+      <file name="b.png" size="10848" />
+    </image>
+    <image name="c">
+      <file name="c.png" size="10593" />
+    </image>
+    <image name="d">
+      <file name="d.png" size="9346" />
+    </image>
+    <image name="e">
+      <file name="e.png" size="8207" />
+    </image>
+    <image name="f">
+      <file name="f.png" size="9020" />
+    </image>
+    <image name="g">
+      <file name="g.png" size="9704" />
+    </image>
+    <image name="h">
+      <file name="h.png" size="9193" />
+    </image>
+    <image name="i">
+      <file name="i.png" size="5736" />
+    </image>
+    <image name="j">
+      <file name="j.png" size="7860" />
+    </image>
+    <image name="k">
+      <file name="k.png" size="8737" />
+    </image>
+    <image name="l">
+      <file name="l.png" size="7820" />
+    </image>
+    <image name="m">
+      <file name="m.png" size="10391" />
+    </image>
+    <image name="n">
+      <file name="n.png" size="11096" />
+    </image>
+    <image name="o">
+      <file name="o.png" size="10748" />
+    </image>
+    <image name="p">
+      <file name="p.png" size="8906" />
+    </image>
+    <image name="q">
+      <file name="q.png" size="10267" />
+    </image>
+    <image name="r">
+      <file name="r.png" size="10927" />
+    </image>
+    <image name="s">
+      <file name="s.png" size="10378" />
+    </image>
+    <image name="t">
+      <file name="t.png" size="8970" />
+    </image>
+    <image name="u">
+      <file name="u.png" size="9167" />
+    </image>
+    <image name="v">
+      <file name="v.png" size="8807" />
+    </image>
+    <image name="w">
+      <file name="w.png" size="10972" />
+    </image>
+    <image name="x">
+      <file name="x.png" size="10635" />
+    </image>
+    <image name="y">
+      <file name="y.png" size="8479" />
+    </image>
+    <image name="z">
+      <file name="z.png" size="9747" />
+    </image>
+    <image name="Play">
+      <file name="Play.png" size="22829" />
+    </image>
+  </images>
   <fonts />
   <behaviors />
 </assets>

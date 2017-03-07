@@ -6,8 +6,8 @@
   <resolution>3</resolution>
   <longDescription>A simple game.</longDescription>
   <prototypes>
-    <actor id="id111323" />
     <actor id="id666136" />
+    <actor id="id111323" />
     <actor id="id424498" />
     <actor id="id821670" />
     <actor id="id563027" />
@@ -16,20 +16,80 @@
     <actor id="id177346" />
     <actor id="id828922" />
     <actor id="id926666" />
+    <actor id="id846932" />
+    <actor id="id699805" />
+    <actor id="id404252" />
+    <actor id="id861817" />
+    <actor id="id569437" />
+    <actor id="id202190" />
+    <actor id="id525024" />
+    <actor id="id409191" />
+    <actor id="id943245" />
+    <actor id="id271802" />
+    <actor id="id340015" />
+    <actor id="id323082" />
+    <actor id="id421862" />
+    <actor id="id331625" />
+    <actor id="id624366" />
+    <actor id="id243314" />
+    <actor id="id763154" />
+    <actor id="id689713" />
+    <actor id="id531323" />
+    <actor id="id961622" />
+    <actor id="id871122" />
+    <actor id="id398935" />
+    <actor id="id919038" />
+    <actor id="id642586" />
+    <actor id="id827573" />
+    <actor id="id743205" />
+    <actor id="id334721" />
+    <actor id="id578232" />
+    <actor id="id587856" />
+    <actor id="id857181" />
+    <actor id="id604443" />
+    <actor id="id716956" />
+    <actor id="id883771" />
+    <actor id="id741611" />
+    <actor id="id407046" />
+    <actor id="id199891" />
+    <actor id="id545731" />
+    <actor id="id599334" />
+    <actor id="id495872" />
+    <actor id="id613488" />
+    <actor id="id324260" />
+    <actor id="id425715" />
+    <actor id="id179565" />
+    <actor id="id119085" />
+    <actor id="id310550" />
+    <actor id="id221995" />
+    <actor id="id803182" />
+    <actor id="id270355" />
+    <actor id="id565493" />
+    <actor id="id641890" />
+    <actor id="id637678" />
+    <actor id="id879498" />
+    <actor id="id476278" />
+    <actor id="id519732" />
+    <actor id="id713925" />
+    <actor id="id409192" />
+    <actor id="id960171" />
+    <actor id="id807818" />
   </prototypes>
   <plugins />
   <scenes>
+    <scene id="id889410" />
     <scene id="id159733" />
+    <scene id="id875656" />
   </scenes>
   <attributes>
-    <text id="name">default name</text>
-    <real id="time">0</real>
+    <text id="name">alphabeta</text>
+    <real id="time">20</real>
     <integer id="randomSeed">-1</integer>
     <size id="displaySize">
       <real id="width">1024</real>
       <real id="height">768</real>
     </size>
-    <text id="actorTags">All	Targets	Sources</text>
+    <text id="actorTags">All	Targets	Sources	SpawnActor	Misc</text>
     <boolean id="platformConnected">false</boolean>
     <enumeration id="playerType">1</enumeration>
     <playermap id="player1 Keymap">
@@ -183,5 +243,17 @@
     <table id="id695431" name="PurchaseTable">PurchaseTable</table>
     <integer id="id456652" name="random1">1</integer>
     <integer id="id871440" name="old-random1">0</integer>
+    <integer id="id471770" name="random2">5</integer>
+    <integer id="id290325" name="old-random2">0</integer>
+    <integer id="id968437" name="random3">9</integer>
+    <integer id="id488001" name="old-random3">0</integer>
+    <integer id="id894682" name="random4">13</integer>
+    <integer id="id457579" name="old-random4">0</integer>
+    <integer id="id773051" name="random5">17</integer>
+    <integer id="id872639" name="old-random5">0</integer>
+    <integer id="id367773" name="random6">21</integer>
+    <integer id="id909300" name="old-random6">0</integer>
+    <integer id="id972557" name="totalScore">0</integer>
+    <integer id="id812045" name="gameTime">20</integer>
   </attributes>
 </game>

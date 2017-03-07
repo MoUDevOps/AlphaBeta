@@ -18,8 +18,8 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image" />
-    <text id="tags" />
+    <image id="image">d</image>
+    <text id="tags">Targets</text>
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>

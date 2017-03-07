@@ -1,32 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.25" GSCVersion="1.25.6227" id="id159733">
+<scene PGFVersion="0.25" GSCVersion="1.25.6227" id="id889410">
   <layers>
-    <layer id="id807337">
+    <layer id="id671794">
       <actors>
-        <actor id="id309361" prototype="id111323">
-          <attributes>
-            <point id="position">
-              <real id="x">510</real>
-              <real id="y">556</real>
-            </point>
-            <size id="size">
-              <real id="width">932</real>
-              <real id="height">341</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <integer id="id340927" name="New Number">1</integer>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id263893" prototype="id666136">
+        <actor id="id642722" prototype="id807818">
           <attributes>
             <point id="position">
               <real id="x">513</real>
-              <real id="y">210</real>
+              <real id="y">384</real>
             </point>
             <size id="size">
-              <real id="width">933</real>
-              <real id="height">353</real>
+              <real id="width">120</real>
+              <real id="height">120</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
@@ -40,7 +25,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Play</text>
+    <text id="name">menu</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">1024</real>
@@ -53,9 +38,9 @@
       <real id="y">0</real>
     </point>
     <color id="color">
-      <real id="red">0</real>
-      <real id="green">0</real>
-      <real id="blue">0</real>
+      <real id="red">0.501960784313725</real>
+      <real id="green">1</real>
+      <real id="blue">0.501960784313725</real>
       <real id="alpha">1</real>
     </color>
     <rect id="camera">

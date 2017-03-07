@@ -18,7 +18,7 @@
       <real id="blue">0.501960784313725</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image" />
+    <image id="image">b</image>
     <text id="tags">Targets</text>
     <boolean id="preloadArt">true</boolean>
   </attributes>
