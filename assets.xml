@@ -80,19 +80,47 @@
     <image name="z">
       <file name="z.png" size="7688" />
     </image>
-    <image name="Play">
-      <file name="Play.png" size="26143" />
+    <image name="bg_shroom">
+      <file name="bg_shroom.png" size="8353" />
     </image>
-    <image name="bg-bb">
-      <file name="bg-bb.png" size="474403" />
+    <image name="blue_button00">
+      <file name="blue_button00.png" size="530" />
     </image>
-    <image name="images">
-      <file name="images.png" size="65338" />
+    <image name="blue_button01">
+      <file name="blue_button01.png" size="447" />
     </image>
-    <image name="rLFGPKI">
-      <file name="rLFGPKI.png" size="2230670" />
+    <image name="bush">
+      <file name="bush.png" size="2344" />
+    </image>
+    <image name="shroomTanAltMid">
+      <file name="shroomTanAltMid.png" size="1485" />
+    </image>
+    <image name="hud_coins">
+      <file name="hud_coins.png" size="1387" />
+    </image>
+    <image name="clock">
+      <file name="clock.png" size="3426" />
+    </image>
+    <image name="bg_castle">
+      <file name="bg_castle.png" size="4731" />
+    </image>
+    <image name="bg_desert">
+      <file name="bg_desert.png" size="6523" />
+    </image>
+    <image name="bg_grasslands">
+      <file name="bg_grasslands.png" size="6465" />
+    </image>
+    <image name="bomb">
+      <file name="bomb.png" size="1647" />
+    </image>
+    <image name="bombFlash">
+      <file name="bombFlash.png" size="813" />
     </image>
   </images>
-  <fonts />
+  <fonts>
+    <font name="KenPixel">
+      <file name="kenpixel.ttf" size="18068" />
+    </font>
+  </fonts>
   <behaviors />
 </assets>

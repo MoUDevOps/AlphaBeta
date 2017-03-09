@@ -25,7 +25,7 @@
   <behaviors>
     <behavior id="id647454" class="TimerBehavior" enabled="true">
       <attributes>
-        <text id="name">Timer</text>
+        <text id="name">CountDown</text>
         <text id="bundleName">Timer.behavior</text>
         <index id="timerType">0</index>
         <real id="interval">1</real>
@@ -49,7 +49,7 @@
     </behavior>
     <behavior id="id774094" class="RuleBehavior" enabled="true">
       <attributes>
-        <text id="name">Rule</text>
+        <text id="name">EndingRule</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
@@ -77,13 +77,37 @@
             <text id="RHS">20</text>
           </attributes>
         </behavior>
-        <behavior id="id530253" class="ChangeSceneAction" enabled="true">
+        <behavior id="id404797" class="TimerBehavior" enabled="true">
           <attributes>
-            <text id="name">Change Scene</text>
-            <text id="bundleName">ChangeScene.behavior</text>
-            <text id="sceneKey">id875656</text>
-            <index id="enableAdvertisement">0</index>
-            <index id="index">1</index>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">true</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id530253" class="ChangeSceneAction" enabled="true">
+              <attributes>
+                <text id="name">Change Scene</text>
+                <text id="bundleName">ChangeScene.behavior</text>
+                <text id="sceneKey">id875656</text>
+                <index id="enableAdvertisement">0</index>
+                <index id="index">1</index>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id391330" class="SpawnAction" enabled="true">
+          <attributes>
+            <text id="name">Spawn Actor</text>
+            <text id="bundleName">Spawn.behavior</text>
+            <text id="prototypeKey">id174842</text>
+            <angle id="direction">0</angle>
+            <index id="directionSpace">1</index>
+            <real id="x">0</real>
+            <real id="y">0</real>
+            <index id="positionSpace">1</index>
+            <index id="layerOrder">2</index>
           </attributes>
         </behavior>
       </behaviors>
@@ -97,8 +121,8 @@
             <reference keypath="game.attributes.id812045" />
           </expression>
         </text>
-        <text id="font">Bilbo</text>
-        <real id="size">50</real>
+        <text id="font">KenPixel</text>
+        <real id="size">32</real>
         <index id="alignment">1</index>
         <boolean id="wrap">false</boolean>
         <color id="color">
@@ -113,6 +137,56 @@
         <index id="directionSpace">0</index>
         <angle id="direction">0</angle>
       </attributes>
+    </behavior>
+    <behavior id="id128776" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id428112" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id812045</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">&lt;=</text>
+              <real id="RHS">5</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id586709" class="DisplayTextBehavior" enabled="true">
+          <attributes>
+            <text id="name">Display Text</text>
+            <text id="bundleName">DisplayText.behavior</text>
+            <text id="text">
+              <expression>
+                <reference keypath="game.attributes.id812045" />
+              </expression>
+            </text>
+            <text id="font">KenPixel</text>
+            <real id="size">32</real>
+            <index id="alignment">1</index>
+            <boolean id="wrap">false</boolean>
+            <color id="color">
+              <real id="red">1</real>
+              <real id="green">0</real>
+              <real id="blue">0</real>
+              <real id="alpha">1</real>
+            </color>
+            <real id="offsetx">0</real>
+            <real id="offsety">0</real>
+            <index id="space">0</index>
+            <index id="directionSpace">0</index>
+            <angle id="direction">0</angle>
+          </attributes>
+        </behavior>
+      </behaviors>
     </behavior>
   </behaviors>
   <aspects>

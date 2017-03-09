@@ -32,7 +32,7 @@
             <reference keypath="game.attributes.id972557" />
           </expression>
         </text>
-        <text id="font">Bilbo</text>
+        <text id="font">KenPixel</text>
         <real id="size">48</real>
         <index id="alignment">1</index>
         <boolean id="wrap">false</boolean>

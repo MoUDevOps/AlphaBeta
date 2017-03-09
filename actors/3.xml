@@ -82,7 +82,7 @@
                 <text id="name">Timer</text>
                 <text id="bundleName">Timer.behavior</text>
                 <index id="timerType">1</index>
-                <real id="interval">0.2</real>
+                <real id="interval">0.1</real>
                 <boolean id="runToCompletion">true</boolean>
               </attributes>
               <behaviors>

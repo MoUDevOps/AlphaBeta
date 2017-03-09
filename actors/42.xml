@@ -53,6 +53,19 @@
             </condition>
           </conditions>
           <behaviors>
+            <behavior id="id305643" class="SpawnAction" enabled="true">
+              <attributes>
+                <text id="name">Spawn Actor</text>
+                <text id="bundleName">Spawn.behavior</text>
+                <text id="prototypeKey">id645168</text>
+                <angle id="direction">0</angle>
+                <index id="directionSpace">0</index>
+                <real id="x">0</real>
+                <real id="y">0</real>
+                <index id="positionSpace">0</index>
+                <index id="layerOrder">0</index>
+              </attributes>
+            </behavior>
             <behavior id="id445882" class="ChangeAttributeAction" enabled="true">
               <attributes>
                 <text id="name">Change Attribute</text>

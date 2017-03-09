@@ -3,6 +3,20 @@
   <layers>
     <layer id="id794594">
       <actors>
+        <actor id="id799984" prototype="id572262">
+          <attributes>
+            <point id="position">
+              <real id="x">372</real>
+              <real id="y">170</real>
+            </point>
+            <size id="size">
+              <real id="width">800</real>
+              <real id="height">600</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
         <actor id="id435124" prototype="id409192">
           <attributes>
             <point id="position">
@@ -17,43 +31,117 @@
           </attributes>
           <aspects />
         </actor>
-        <actor id="id297126" prototype="id300465">
-          <attributes>
-            <point id="position">
-              <real id="x">342</real>
-              <real id="y">255</real>
-            </point>
-            <size id="size">
-              <real id="width">800</real>
-              <real id="height">600</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects />
-        </actor>
         <actor id="id950703" prototype="id409192">
           <attributes>
             <point id="position">
-              <real id="x">347</real>
+              <real id="x">372</real>
               <real id="y">326</real>
             </point>
             <size id="size">
-              <real id="width">120</real>
-              <real id="height">120</real>
+              <real id="width">48</real>
+              <real id="height">48</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
           <aspects />
         </actor>
-        <actor id="id805333" prototype="id417231">
+        <actor id="id549728" prototype="id514257">
           <attributes>
             <point id="position">
-              <real id="x">367</real>
-              <real id="y">136</real>
+              <real id="x">91</real>
+              <real id="y">342</real>
             </point>
             <size id="size">
-              <real id="width">100</real>
+              <real id="width">113</real>
+              <real id="height">116</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id226807" prototype="id514257">
+          <attributes>
+            <point id="position">
+              <real id="x">594</real>
+              <real id="y">308</real>
+            </point>
+            <size id="size">
+              <real id="width">71</real>
+              <real id="height">71</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">SpawnMenu Copy 6</text>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id507652" prototype="id514257">
+          <attributes>
+            <point id="position">
+              <real id="x">395</real>
+              <real id="y">191</real>
+            </point>
+            <size id="size">
+              <real id="width">113</real>
+              <real id="height">116</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">SpawnMenu Copy 7</text>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id266672" prototype="id514257">
+          <attributes>
+            <point id="position">
+              <real id="x">173</real>
+              <real id="y">56</real>
+            </point>
+            <size id="size">
+              <real id="width">97</real>
+              <real id="height">80</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">SpawnMenu Copy 8</text>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id187960" prototype="id514257">
+          <attributes>
+            <point id="position">
+              <real id="x">587</real>
+              <real id="y">70</real>
+            </point>
+            <size id="size">
+              <real id="width">111</real>
               <real id="height">100</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">SpawnMenu Copy 9</text>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id112343" prototype="id417231">
+          <attributes>
+            <point id="position">
+              <real id="x">372</real>
+              <real id="y">207</real>
+            </point>
+            <size id="size">
+              <real id="width">190</real>
+              <real id="height">49</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id361632" prototype="id713925">
+          <attributes>
+            <point id="position">
+              <real id="x">320</real>
+              <real id="y">326</real>
+            </point>
+            <size id="size">
+              <real id="width">48</real>
+              <real id="height">48</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>

@@ -78,6 +78,11 @@
     <actor id="id919797" />
     <actor id="id572262" />
     <actor id="id300465" />
+    <actor id="id155694" />
+    <actor id="id514257" />
+    <actor id="id781374" />
+    <actor id="id645168" />
+    <actor id="id174842" />
   </prototypes>
   <plugins />
   <scenes>
@@ -93,7 +98,7 @@
       <real id="width">736</real>
       <real id="height">414</real>
     </size>
-    <text id="actorTags">All	Targets	Sources	SpawnActor	Misc</text>
+    <text id="actorTags">All	Targets	Sources	SpawnActor	Misc	Background</text>
     <boolean id="platformConnected">false</boolean>
     <enumeration id="playerType">1</enumeration>
     <playermap id="player1 Keymap">
@@ -259,5 +264,7 @@
     <integer id="id909300" name="old-random6">0</integer>
     <integer id="id972557" name="totalScore">0</integer>
     <integer id="id812045" name="gameTime">20</integer>
+    <table id="id668339" name="randomNumber">Table 1</table>
+    <integer id="id321513" name="randomBG">0</integer>
   </attributes>
 </game>

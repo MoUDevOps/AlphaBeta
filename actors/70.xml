@@ -28,7 +28,7 @@
         <text id="name">Display Text</text>
         <text id="bundleName">DisplayText.behavior</text>
         <text id="text">highscore</text>
-        <text id="font">Cambay</text>
+        <text id="font">KenPixel</text>
         <real id="size">30</real>
         <index id="alignment">1</index>
         <boolean id="wrap">false</boolean>
