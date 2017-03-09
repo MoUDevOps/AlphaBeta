@@ -90,6 +90,14 @@
             </behavior>
           </behaviors>
         </behavior>
+        <behavior id="id783300" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id972557</text>
+            <text id="RHS">0</text>
+          </attributes>
+        </behavior>
       </behaviors>
     </behavior>
   </behaviors>
