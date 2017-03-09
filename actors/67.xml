@@ -69,6 +69,14 @@
         </condition>
       </conditions>
       <behaviors>
+        <behavior id="id546488" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id812045</text>
+            <text id="RHS">20</text>
+          </attributes>
+        </behavior>
         <behavior id="id530253" class="ChangeSceneAction" enabled="true">
           <attributes>
             <text id="name">Change Scene</text>
@@ -89,13 +97,13 @@
             <reference keypath="game.attributes.id812045" />
           </expression>
         </text>
-        <text id="font">Cambay</text>
+        <text id="font">Bilbo</text>
         <real id="size">50</real>
         <index id="alignment">1</index>
         <boolean id="wrap">false</boolean>
         <color id="color">
-          <real id="red">1</real>
-          <real id="green">1</real>
+          <real id="red">0</real>
+          <real id="green">0</real>
           <real id="blue">0</real>
           <real id="alpha">1</real>
         </color>

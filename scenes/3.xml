@@ -6,12 +6,54 @@
         <actor id="id435124" prototype="id409192">
           <attributes>
             <point id="position">
-              <real id="x">514</real>
-              <real id="y">555</real>
+              <real id="x">131</real>
+              <real id="y">668</real>
             </point>
             <size id="size">
-              <real id="width">574</real>
+              <real id="width">183</real>
+              <real id="height">137</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id297126" prototype="id300465">
+          <attributes>
+            <point id="position">
+              <real id="x">342</real>
+              <real id="y">255</real>
+            </point>
+            <size id="size">
+              <real id="width">800</real>
+              <real id="height">600</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id950703" prototype="id409192">
+          <attributes>
+            <point id="position">
+              <real id="x">347</real>
+              <real id="y">326</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
               <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id805333" prototype="id417231">
+          <attributes>
+            <point id="position">
+              <real id="x">367</real>
+              <real id="y">136</real>
+            </point>
+            <size id="size">
+              <real id="width">100</real>
+              <real id="height">100</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
@@ -28,8 +70,8 @@
     <text id="name">End</text>
     <real id="time">0</real>
     <size id="size">
-      <real id="width">1024</real>
-      <real id="height">768</real>
+      <real id="width">736</real>
+      <real id="height">414</real>
     </size>
     <boolean id="wrapX">false</boolean>
     <boolean id="wrapY">false</boolean>
@@ -49,12 +91,12 @@
         <real id="y">0</real>
       </point>
       <size id="size">
-        <real id="width">1024</real>
-        <real id="height">768</real>
+        <real id="width">736</real>
+        <real id="height">414</real>
       </size>
       <size id="trackingArea">
-        <real id="width">944</real>
-        <real id="height">708</real>
+        <real id="width">656</real>
+        <real id="height">354</real>
       </size>
       <real id="rotation">0</real>
     </rect>

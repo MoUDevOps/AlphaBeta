@@ -8,8 +8,8 @@
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">120</real>
-      <real id="height">120</real>
+      <real id="width">20</real>
+      <real id="height">20</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -118,7 +118,7 @@
                 </real>
                 <real id="y">
                   <expression>
-                    <string xml:space="preserve">random(-150, 150)</string>
+                    <string xml:space="preserve">random(0, -150)</string>
                   </expression>
                 </real>
                 <index id="positionSpace">0</index>
@@ -163,7 +163,7 @@
                 </real>
                 <real id="y">
                   <expression>
-                    <string xml:space="preserve">random(-150, 150)</string>
+                    <string xml:space="preserve">random(0, -150)</string>
                   </expression>
                 </real>
                 <index id="positionSpace">0</index>
@@ -208,7 +208,7 @@
                 </real>
                 <real id="y">
                   <expression>
-                    <string xml:space="preserve">random(-150, 150)</string>
+                    <string xml:space="preserve">random(0, -150)</string>
                   </expression>
                 </real>
                 <index id="positionSpace">0</index>
@@ -253,7 +253,7 @@
                 </real>
                 <real id="y">
                   <expression>
-                    <string xml:space="preserve">random(-150, 150)</string>
+                    <string xml:space="preserve">random(0, -150)</string>
                   </expression>
                 </real>
                 <index id="positionSpace">0</index>

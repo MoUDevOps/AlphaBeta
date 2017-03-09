@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id883771" PGFVersion="0.25" GSCVersion="1.25.6227">
+<actor id="id741611" PGFVersion="0.25" GSCVersion="1.25.6227">
   <attributes>
-    <text id="name">TargetT</text>
+    <text id="name">SourceT</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">120</real>
-      <real id="height">120</real>
+      <real id="width">50</real>
+      <real id="height">50</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -19,11 +19,11 @@
       <real id="alpha">1</real>
     </color>
     <image id="image">t</image>
-    <text id="tags">Targets</text>
+    <text id="tags">Sources</text>
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id131920" class="CompoundBehavior" enabled="true">
+    <behavior id="id461330" class="CompoundBehavior" enabled="true">
       <attributes>
         <text id="name">Group</text>
         <text id="bundleName">Group.behavior</text>
@@ -31,21 +31,21 @@
         <boolean id="runSequentially">false</boolean>
       </attributes>
       <behaviors>
-        <behavior id="id528796" class="RuleBehavior" enabled="true">
+        <behavior id="id627385" class="RuleBehavior" enabled="true">
           <attributes>
-            <text id="name">Collide with source</text>
+            <text id="name">Rule</text>
             <text id="bundleName">Rule.behavior</text>
             <real id="compoundConditionKind">0</real>
           </attributes>
           <conditions>
-            <condition id="id891227" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+            <condition id="id493431" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
               <attributes>
                 <text id="name">default name</text>
                 <index id="conditionType">0</index>
               </attributes>
               <predicate type="collision">
                 <attributes>
-                  <text id="prototypeKey">id741611</text>
+                  <text id="prototypeKey">id883771</text>
                   <text id="actorTag" />
                   <real id="mode">0</real>
                 </attributes>
@@ -53,57 +53,35 @@
             </condition>
           </conditions>
           <behaviors>
-            <behavior id="id686700" class="ChangeAttributeAction" enabled="true">
+            <behavior id="id902027" class="ChangeAttributeAction" enabled="true">
               <attributes>
                 <text id="name">Change Attribute</text>
                 <text id="bundleName">ChangeAttribute.behavior</text>
-                <text id="targetAttribute">game.attributes.id872639</text>
+                <text id="targetAttribute">game.attributes.id972557</text>
                 <text id="RHS">
                   <expression>
-                    <reference keypath="game.attributes.id773051" />
+                    <reference keypath="game.attributes.id972557" />
+                    <string xml:space="preserve">+1</string>
                   </expression>
                 </text>
               </attributes>
             </behavior>
-            <behavior id="id500666" class="ChangeAttributeAction" enabled="true">
+            <behavior id="id418350" class="DestroyAction" enabled="true">
               <attributes>
-                <text id="name">Change Attribute</text>
-                <text id="bundleName">ChangeAttribute.behavior</text>
-                <text id="targetAttribute">game.attributes.id773051</text>
-                <text id="RHS">
-                  <expression>
-                    <string xml:space="preserve">random(17, 20)</string>
-                  </expression>
-                </text>
+                <text id="name">Destroy</text>
+                <text id="bundleName">Destroy.behavior</text>
               </attributes>
-            </behavior>
-            <behavior id="id491687" class="TimerBehavior" enabled="true">
-              <attributes>
-                <text id="name">Timer</text>
-                <text id="bundleName">Timer.behavior</text>
-                <index id="timerType">1</index>
-                <real id="interval">0.2</real>
-                <boolean id="runToCompletion">true</boolean>
-              </attributes>
-              <behaviors>
-                <behavior id="id665326" class="DestroyAction" enabled="true">
-                  <attributes>
-                    <text id="name">Destroy</text>
-                    <text id="bundleName">Destroy.behavior</text>
-                  </attributes>
-                </behavior>
-              </behaviors>
             </behavior>
           </behaviors>
         </behavior>
-        <behavior id="id869929" class="RuleBehavior" enabled="true">
+        <behavior id="id258304" class="RuleBehavior" enabled="true">
           <attributes>
-            <text id="name">Drag</text>
+            <text id="name">Rule</text>
             <text id="bundleName">Rule.behavior</text>
             <real id="compoundConditionKind">0</real>
           </attributes>
           <conditions>
-            <condition id="id738213" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+            <condition id="id947444" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
               <attributes>
                 <text id="name">default name</text>
                 <index id="conditionType">0</index>
@@ -114,7 +92,7 @@
             </condition>
           </conditions>
           <behaviors>
-            <behavior id="id328867" class="ConstrainAttributeBehavior" enabled="true">
+            <behavior id="id745870" class="ConstrainAttributeBehavior" enabled="true">
               <attributes>
                 <text id="name">Constrain Attribute</text>
                 <text id="bundleName">ConstrainAttribute.behavior</text>
@@ -126,7 +104,7 @@
                 </text>
               </attributes>
             </behavior>
-            <behavior id="id141192" class="ConstrainAttributeBehavior" enabled="true">
+            <behavior id="id592275" class="ConstrainAttributeBehavior" enabled="true">
               <attributes>
                 <text id="name">Constrain Attribute</text>
                 <text id="bundleName">ConstrainAttribute.behavior</text>
@@ -141,6 +119,14 @@
           </behaviors>
         </behavior>
       </behaviors>
+    </behavior>
+    <behavior id="id302647" class="RotateBehavior" enabled="true">
+      <attributes>
+        <text id="name">Rotate</text>
+        <text id="bundleName">Rotate.behavior</text>
+        <real id="angularVelocity">90</real>
+        <index id="direction">0</index>
+      </attributes>
     </behavior>
   </behaviors>
   <aspects>

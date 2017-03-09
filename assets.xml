@@ -3,85 +3,94 @@
   <sounds />
   <images>
     <image name="a">
-      <file name="a.png" size="9563" />
+      <file name="a.png" size="7344" />
     </image>
     <image name="b">
-      <file name="b.png" size="10848" />
+      <file name="b.png" size="9277" />
     </image>
     <image name="c">
-      <file name="c.png" size="10593" />
+      <file name="c.png" size="7700" />
     </image>
     <image name="d">
-      <file name="d.png" size="9346" />
+      <file name="d.png" size="7311" />
     </image>
     <image name="e">
-      <file name="e.png" size="8207" />
+      <file name="e.png" size="7172" />
     </image>
     <image name="f">
-      <file name="f.png" size="9020" />
+      <file name="f.png" size="6763" />
     </image>
     <image name="g">
-      <file name="g.png" size="9704" />
+      <file name="g.png" size="7176" />
     </image>
     <image name="h">
-      <file name="h.png" size="9193" />
+      <file name="h.png" size="7408" />
     </image>
     <image name="i">
-      <file name="i.png" size="5736" />
+      <file name="i.png" size="4979" />
     </image>
     <image name="j">
-      <file name="j.png" size="7860" />
+      <file name="j.png" size="6191" />
     </image>
     <image name="k">
-      <file name="k.png" size="8737" />
+      <file name="k.png" size="7085" />
     </image>
     <image name="l">
-      <file name="l.png" size="7820" />
+      <file name="l.png" size="6545" />
     </image>
     <image name="m">
-      <file name="m.png" size="10391" />
+      <file name="m.png" size="8746" />
     </image>
     <image name="n">
-      <file name="n.png" size="11096" />
+      <file name="n.png" size="9541" />
     </image>
     <image name="o">
-      <file name="o.png" size="10748" />
+      <file name="o.png" size="7889" />
     </image>
     <image name="p">
-      <file name="p.png" size="8906" />
+      <file name="p.png" size="6414" />
     </image>
     <image name="q">
-      <file name="q.png" size="10267" />
+      <file name="q.png" size="7827" />
     </image>
     <image name="r">
-      <file name="r.png" size="10927" />
+      <file name="r.png" size="8216" />
     </image>
     <image name="s">
-      <file name="s.png" size="10378" />
+      <file name="s.png" size="7612" />
     </image>
     <image name="t">
-      <file name="t.png" size="8970" />
+      <file name="t.png" size="6502" />
     </image>
     <image name="u">
-      <file name="u.png" size="9167" />
+      <file name="u.png" size="7621" />
     </image>
     <image name="v">
-      <file name="v.png" size="8807" />
+      <file name="v.png" size="6480" />
     </image>
     <image name="w">
-      <file name="w.png" size="10972" />
+      <file name="w.png" size="8196" />
     </image>
     <image name="x">
-      <file name="x.png" size="10635" />
+      <file name="x.png" size="7804" />
     </image>
     <image name="y">
-      <file name="y.png" size="8479" />
+      <file name="y.png" size="6543" />
     </image>
     <image name="z">
-      <file name="z.png" size="9747" />
+      <file name="z.png" size="7688" />
     </image>
     <image name="Play">
-      <file name="Play.png" size="22829" />
+      <file name="Play.png" size="26143" />
+    </image>
+    <image name="bg-bb">
+      <file name="bg-bb.png" size="474403" />
+    </image>
+    <image name="images">
+      <file name="images.png" size="65338" />
+    </image>
+    <image name="rLFGPKI">
+      <file name="rLFGPKI.png" size="2230670" />
     </image>
   </images>
   <fonts />

@@ -3,11 +3,25 @@
   <layers>
     <layer id="id671794">
       <actors>
-        <actor id="id642722" prototype="id807818">
+        <actor id="id370894" prototype="id572262">
           <attributes>
             <point id="position">
-              <real id="x">513</real>
-              <real id="y">384</real>
+              <real id="x">379</real>
+              <real id="y">288</real>
+            </point>
+            <size id="size">
+              <real id="width">800</real>
+              <real id="height">600</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id201193" prototype="id807818">
+          <attributes>
+            <point id="position">
+              <real id="x">368</real>
+              <real id="y">207</real>
             </point>
             <size id="size">
               <real id="width">120</real>
@@ -28,8 +42,8 @@
     <text id="name">menu</text>
     <real id="time">0</real>
     <size id="size">
-      <real id="width">1024</real>
-      <real id="height">768</real>
+      <real id="width">736</real>
+      <real id="height">414</real>
     </size>
     <boolean id="wrapX">false</boolean>
     <boolean id="wrapY">false</boolean>
@@ -38,9 +52,9 @@
       <real id="y">0</real>
     </point>
     <color id="color">
-      <real id="red">0.501960784313725</real>
+      <real id="red">1</real>
       <real id="green">1</real>
-      <real id="blue">0.501960784313725</real>
+      <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
     <rect id="camera">
@@ -49,12 +63,12 @@
         <real id="y">0</real>
       </point>
       <size id="size">
-        <real id="width">1024</real>
-        <real id="height">768</real>
+        <real id="width">736</real>
+        <real id="height">414</real>
       </size>
       <size id="trackingArea">
-        <real id="width">944</real>
-        <real id="height">708</real>
+        <real id="width">656</real>
+        <real id="height">354</real>
       </size>
       <real id="rotation">0</real>
     </rect>

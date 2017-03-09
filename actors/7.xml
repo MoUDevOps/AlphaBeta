@@ -8,14 +8,14 @@
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">120</real>
-      <real id="height">120</real>
+      <real id="width">50</real>
+      <real id="height">50</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
       <real id="red">1</real>
-      <real id="green">0.501960784313725</real>
-      <real id="blue">0.501960784313725</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
     <image id="image">a</image>
