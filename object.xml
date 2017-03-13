@@ -83,6 +83,7 @@
     <actor id="id781374" />
     <actor id="id645168" />
     <actor id="id174842" />
+    <actor id="id837924" />
   </prototypes>
   <plugins />
   <scenes>
@@ -263,7 +264,7 @@
     <integer id="id367773" name="random6">21</integer>
     <integer id="id909300" name="old-random6">0</integer>
     <integer id="id972557" name="totalScore">0</integer>
-    <integer id="id812045" name="gameTime">20</integer>
+    <integer id="id812045" name="gameTime">60</integer>
     <table id="id668339" name="randomNumber">Table 1</table>
     <integer id="id321513" name="randomBG">0</integer>
   </attributes>

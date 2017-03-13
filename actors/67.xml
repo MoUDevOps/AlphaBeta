@@ -74,7 +74,7 @@
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
             <text id="targetAttribute">game.attributes.id812045</text>
-            <text id="RHS">20</text>
+            <text id="RHS">60</text>
           </attributes>
         </behavior>
         <behavior id="id404797" class="TimerBehavior" enabled="true">

@@ -39,8 +39,34 @@
         <boolean id="runToCompletion">true</boolean>
         <text id="targetAttribute">self.attributes.color.alpha</text>
         <real id="finalValue">0</real>
-        <real id="duration">1</real>
+        <real id="duration">1.5</real>
         <index id="easing">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id245092" class="MoveToBehavior" enabled="true">
+      <attributes>
+        <text id="name">Move To</text>
+        <text id="bundleName">MoveTo.behavior</text>
+        <boolean id="runToCompletion">true</boolean>
+        <point id="position">
+          <real id="x">65</real>
+          <real id="y">361</real>
+        </point>
+        <index id="space">1</index>
+        <real id="speed">500</real>
+      </attributes>
+    </behavior>
+    <behavior id="id350194" class="PlaySoundAction" enabled="true">
+      <attributes>
+        <text id="name">Play Sound</text>
+        <text id="bundleName">PlaySound.behavior</text>
+        <sound id="soundName">HolyWater</sound>
+        <boolean id="loop">false</boolean>
+        <boolean id="runToCompletion">true</boolean>
+        <boolean id="positional">false</boolean>
+        <boolean id="dopplerShift">false</boolean>
+        <real id="volume">1</real>
+        <real id="pitch">1</real>
       </attributes>
     </behavior>
   </behaviors>

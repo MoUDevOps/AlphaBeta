@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <assets PGFVersion="0.25" GSCVersion="1.25.6227">
-  <sounds />
+  <sounds>
+    <sound name="HolyWater">
+      <file name="HolyWater.ogg" size="10532" />
+    </sound>
+    <sound name="MSTR_-_MSTR_-_Choro_bavario_Loop">
+      <file name="MSTR_-_MSTR_-_Choro_bavario_Loop.ogg" size="2070821" />
+    </sound>
+    <sound name="new_party_member">
+      <file name="new_party_member.ogg" size="5774" />
+    </sound>
+    <sound name="sleep">
+      <file name="sleep.ogg" size="35800" />
+    </sound>
+  </sounds>
   <images>
     <image name="a">
       <file name="a.png" size="7344" />
-    </image>
-    <image name="b">
-      <file name="b.png" size="9277" />
     </image>
     <image name="c">
       <file name="c.png" size="7700" />
@@ -115,6 +125,9 @@
     </image>
     <image name="bombFlash">
       <file name="bombFlash.png" size="813" />
+    </image>
+    <image name="b">
+      <file name="b.png" size="8751" />
     </image>
   </images>
   <fonts>
